@@ -1,0 +1,25 @@
+{
+  "name": "exercicio-3",
+  "version": "1.0.0",
+  "description": "Exercicio para construir um backend de um gerenciador de tarefas",
+  "main": "index.js",  
+  "scripts": {
+    "start": "ts-node-dev --respawn src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Ayrton Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.24"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
